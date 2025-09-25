@@ -8,26 +8,13 @@ CheckHook 是一个轻量级的Windows安全工具，用于检测系统中关键
 
 
 ## 检测的DLL列表
-工具会检测以下关键系统DLL，可根据需求自行添加：
-// 网络相关
+工具会检测以下关键系统DLL，可根据需求自行添加其他DLL。
 "ws2_32.dll", "wininet.dll", "winhttp.dll", "urlmon.dll", "iphlpapi.dll"
-
-// 安全相关  
 "advapi32.dll", "crypt32.dll", "bcrypt.dll", "cryptsvc.dll", "schannel.dll"
-
-// 系统服务
 "psapi.dll", "netapi32.dll", "srvcli.dll", "sechost.dll", "setupapi.dll"
-
-// 调试相关
 "dbghelp.dll", "tlhelp32.dll"
-
-// 用户界面
 "user32.dll", "gdi32.dll", "shell32.dll", "comctl32.dll"
-
-// 运行时库
 "msvcrt.dll", "ucrtbase.dll", "msvcp140.dll"
-
-// 其他关键DLL
 "kernel32.dll", "ntdll.dll", "ole32.dll", "rpcrt4.dll"
 
 ## 许可证
